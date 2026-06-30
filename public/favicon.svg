@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="17 17 166 166">
+  <defs>
+    <radialGradient id="g" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#fde68a"></stop>
+      <stop offset="55%" stop-color="#f59e0b"></stop>
+      <stop offset="100%" stop-color="#9a3412"></stop>
+    </radialGradient>
+  </defs>
+  <circle cx="100" cy="100" r="82" fill="url(#g)"></circle>
+  <circle cx="100" cy="100" r="82" fill="none" stroke="rgba(30,10,0,0.35)" stroke-width="1.5"></circle>
+  <g fill="#0d1117">
+    <path d="M100 100 L100 28 A72 72 0 0 1 162 64 Z" opacity="0.08"></path>
+    <path d="M100 100 L162 64 A72 72 0 0 1 162 136 Z" opacity="0.14"></path>
+    <path d="M100 100 L162 136 A72 72 0 0 1 100 172 Z" opacity="0.2"></path>
+    <path d="M100 100 L100 172 A72 72 0 0 1 38 136 Z" opacity="0.14"></path>
+    <path d="M100 100 L38 136 A72 72 0 0 1 38 64 Z" opacity="0.08"></path>
+    <path d="M100 100 L38 64 A72 72 0 0 1 100 28 Z" opacity="0.02"></path>
+  </g>
+  <polygon points="100,80 118,90 118,110 100,120 82,110 82,90" fill="#0d1117"></polygon>
+  <polygon points="100,80 118,90 118,110 100,120 82,110 82,90" fill="none" stroke="rgba(253,230,138,0.4)" stroke-width="1"></polygon>
+  <g stroke="rgba(30,10,0,0.5)" stroke-width="1.2" fill="none" stroke-linecap="round">
+    <path d="M100 28 L100 80"></path>
+    <path d="M162 64 L118 90"></path>
+    <path d="M162 136 L118 110"></path>
+    <path d="M100 172 L100 120"></path>
+    <path d="M38 136 L82 110"></path>
+    <path d="M38 64 L82 90"></path>
+  </g>
+</svg>
